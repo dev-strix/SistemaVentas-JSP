@@ -1,0 +1,16 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 12 nov. 2023, 10:52:09
+    Author     : deyvi
+*/
+#gallery #pic{
+    position:relative;
+    height: 100px; /*the height of the big image*/
+}
+ 
+#gallery #pic img{
+    position:absolute;
+}

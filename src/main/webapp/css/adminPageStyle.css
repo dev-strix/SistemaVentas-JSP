@@ -1,0 +1,42 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 14 nov. 2023, 21:01:02
+    Author     : deyvi
+*/
+/*Diseño del formulario Productos*/
+.myformulario{ padding-left: 100px;}
+.myformulario{ padding-right: 100px;}
+.myformulario{ padding-top: 50px;}
+.myformulario{ padding-bottom: 40px;}
+
+.myformulario1{ margin: 30px}
+.myformulario1{ background-color: #ffad40; }
+.myformulario1{ border-style: solid;}
+.myformulario1{ border-color: #ffad40; }
+.myformulario1{border-radius: 25px}
+
+.myformulario{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.myimagen{padding-right: 20px}
+
+.mybotton{width: 50% !important;}
+.mybotton{alignment-adjust: central}
+
+/*Diseño de la tabla*/
+.mytabla{ margin: 30px}
+.mytabla{ background-color: #ffad40; }
+.mytabla{ border-style: solid;}
+.mytabla{ border-color: #ffad40; }
+.mytabla{border-radius: 25px}
+
+
+.credit-card-div  span { padding-top:10px; }
+.credit-card-div img { padding-top:30px; }
+.credit-card-div .small-font { font-size:9px; }
+.credit-card-div .pad-adjust { padding-top:10px; }

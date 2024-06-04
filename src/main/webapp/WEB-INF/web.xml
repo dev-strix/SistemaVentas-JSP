@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="6.0" xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd">
+    <servlet>
+        <servlet-name>AddCar</servlet-name>
+        <servlet-class>servlets.AddCar</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>DeleteItem</servlet-name>
+        <servlet-class>servlets.DeleteItem</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>CreateProducto</servlet-name>
+        <servlet-class>servlets.CreateProducto</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>CrearVenta</servlet-name>
+        <servlet-class>servlets.CrearVenta</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddCar</servlet-name>
+        <url-pattern>/agregarproducto</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DeleteItem</servlet-name>
+        <url-pattern>/borraritem</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CreateProducto</servlet-name>
+        <url-pattern>/guardarproducto</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CrearVenta</servlet-name>
+        <url-pattern>/createventa</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>
